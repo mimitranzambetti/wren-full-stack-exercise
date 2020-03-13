@@ -10,7 +10,7 @@ The science behind this is too complicated to fully cover here, but the short ve
 
 Here's how we want it to look:
 
-![Start State Mockup](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/672803c7-b7cc-4fe5-ae4b-cd43edcbe034/start_state.png)
+![Start State Mockup](https://github.com/mimi-tranzambetti/wren-full-stack-exercise/blob/master/mockups/start_state.png)
 
 As you can see, the top section shows your own impact—how much carbon you've emitted this month (or in other words, your carbon footprint for the month) and how much you've offset this month. We also give users a big orange button so they can offset their purchases and live carbon neutral :)
 
@@ -18,7 +18,7 @@ The bottom section is a list of all transactions for this user, with some inform
 
 Clicking the "Offset x purchases" button would offset all purchases that have not already been offset. Once they've clicked the offset button, the page should look like this:
 
-![End State Mockup](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/956650ec-2281-4088-83d4-4c7742ba8019/end_state.png)
+![End State Mockup](https://github.com/mimi-tranzambetti/wren-full-stack-exercise/blob/master/mockups/end_state.png)
 
 As you can see, all purchases have been marked "neutralized" and the button to offset purchases has disappeared.
 
@@ -41,7 +41,7 @@ This repo contains a simple React app, Express API, and a JSON "database" of tra
 
 The starting react app looks like this:
 
-![Starter App](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/748cc2f9-224f-413b-a7e3-4f54173ad697/Untitled.png)
+![Starter App](https://github.com/mimi-tranzambetti/wren-full-stack-exercise/blob/master/mockups/starter-app.png)
 
 Below, you can see the math you should use for calculating the carbon impact of products.
 
@@ -55,6 +55,7 @@ For each dollar spent on purchases in the following categories, what is the carb
 - Rideshare: 1800 grams of CO2 per dollar
 
 *How to use*
+
 Let's say I spent $5.86 on a latte. That fits into the coffee & tea category. I see that for items in the Coffee & Tea category, spending $1 is responsible for on average 42 grams of CO2 emissions. So, spending $5.86 on coffee has a carbon impact of 246.12 grams (5.86 * 42).
 
 ## How to submit
