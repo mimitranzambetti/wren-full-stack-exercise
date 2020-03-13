@@ -8,9 +8,8 @@ import checkmark from '../static/checkmark.svg';
 import emptyCircle from '../static/empty-circle.svg';
 
 const tableStyle = scale({
-  maxWidth: '650px',
-  margin: 'auto',
   borderCollapse: 'collapse',
+  backgroundColor: 'white',
   th: {
     textAlign: 'left',
     height: '25px',

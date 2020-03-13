@@ -35,11 +35,11 @@ const loadingStyle = scale({
 const buttonStyle = scale({
   fontWeight: 600,
   textAlign: 'center',
-  backgroundColor: '#4dc156',
+  backgroundColor: '#F79F22',
   fontSize: '10pt',
   color: 'white',
   borderRadius: '3px',
-  border: '1px solid #4dc156',
+  border: '1px solid #F79F22',
   cursor: 'pointer',
   padding: ['4px 6px', '6px 8px'],
   width: '100%',
@@ -49,8 +49,8 @@ const buttonStyle = scale({
   fontSize: '12pt',
   minHeight: '20px',
   '&:hover': {
-    backgroundColor: '#3cb045',
-    border: '1px solid #3cb045',
+    backgroundColor: '#DD7812',
+    border: '1px solid #DD7812',
     boxShadow: 'none',
   },
 });

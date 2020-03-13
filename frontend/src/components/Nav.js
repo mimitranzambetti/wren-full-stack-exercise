@@ -9,12 +9,12 @@ const outerContainer = scale({
   position: 'fixed',
   top: 0,
   left: 0,
-  backgroundColor: '#ffffff',
-  boxShadow: '0 5px 10px rgba(0, 0, 0, 0.12)',
+  backgroundColor: 'transparent',
+  borderBottom: '1px solid #ccc',
 });
 
 const innerContainer = scale({
-  maxWidth: '1050px',
+  maxWidth: '900px',
   padding: '10px',
   paddingTop: '15px',
   paddingLeft: '20px',
@@ -24,7 +24,10 @@ const innerContainer = scale({
 const Nav = () => (
   <div css={outerContainer}>
     <div css={[innerContainer, genericFlex, alignItemsBaseline]}>
-      <h4><strong>Wren Take Home</strong></h4>
+      <h4>Wren Full Stack Exercise</h4>
+      <a href="https://twitter.com/project_wren" target="_blank">
+        @project_wren
+      </a>
     </div>
   </div>
 );
