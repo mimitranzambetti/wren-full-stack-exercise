@@ -1,0 +1,80 @@
+[
+  {
+    "purchased_at": "2019-10-12 22:42:22.434",
+    "vendor": "Starbucks",
+    "category": "Coffee & Tea",
+    "amount": "550"
+  },
+  {
+    "purchased_at": "2019-10-15 15:47:01.231908",
+    "vendor": "Whole Foods",
+    "category": "Grocery",
+    "amount": "4823"
+  },
+  {
+    "purchased_at": "2019-10-15 15:48:57.963251",
+    "vendor": "Blue Bottle",
+    "category": "Coffee & Tea",
+    "amount": "1320"
+  },
+  {
+    "purchased_at": "2019-10-15 15:59:30.665844",
+    "vendor": "West Elm",
+    "category": "Furniture",
+    "amount": "38403"
+  },
+  {
+    "purchased_at": "2019-10-16 05:26:54.608761",
+    "vendor": "Uber",
+    "category": "Rideshare",
+    "amount": "1422"
+  },
+  {
+    "purchased_at": "2019-10-16 21:37:13.88296",
+    "vendor": "Uber",
+    "category": "Rideshare",
+    "amount": "1302"
+  },
+  {
+    "purchased_at": "2019-10-17 00:44:00.437767",
+    "vendor": "Whole Foods",
+    "category": "Grocery",
+    "amount": "8694"
+  },
+  {
+    "purchased_at": "2019-10-17 02:48:22.145221",
+    "vendor": "Blue Bottle",
+    "category": "Coffee & Tea",
+    "amount": "680"
+  },
+  {
+    "purchased_at": "2019-10-18 22:45:03.189313",
+    "vendor": "Uber",
+    "category": "Rideshare",
+    "amount": "784"
+  },
+  {
+    "purchased_at": "2019-10-19 04:00:27.158171",
+    "vendor": "Design Within Reach",
+    "category": "Furniture",
+    "amount": "12043"
+  },
+  {
+    "purchased_at": "2019-10-21 18:58:41.865265",
+    "vendor": "Uber",
+    "category": "Rideshare",
+    "amount": "1104"
+  },
+  {
+    "purchased_at": "2019-10-23 17:50:29.027467",
+    "vendor": "A Good Life",
+    "category": "Groceries",
+    "amount": "3101"
+  },
+  {
+    "purchased_at": "2019-10-23 18:17:49.264252",
+    "vendor": "LOIT",
+    "category": "Coffee & Tea",
+    "amount": "1484"
+  }
+]
