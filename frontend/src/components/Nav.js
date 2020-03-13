@@ -24,7 +24,7 @@ const innerContainer = scale({
 const Nav = () => (
   <div css={outerContainer}>
     <div css={[innerContainer, genericFlex, alignItemsBaseline]}>
-      <h4>Wren Full Stack Exercise</h4>
+      <h4>Wren | Offset your purchases</h4>
       <a href="https://twitter.com/project_wren" target="_blank">
         @project_wren
       </a>

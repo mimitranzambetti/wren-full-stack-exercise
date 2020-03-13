@@ -31,45 +31,46 @@ const mainContainer = scale({
   textAlign: 'left',
 });
 
+const centerText = scale({
+  textAlign: 'center',
+});
+
 const App = () => {
   return (
     <div css={globalStyles}>
       <Nav />
       <div css={mainContainer}>
-        <h1>Offset your purchases</h1>
-        <br />
-        <CardContainer>
-          <CardContent>
-            <h2>Your Impact</h2>
-            <p>
-              <span css={medium}>Purchases to offset:</span> _Num of purchases_ 
-            </p>
-            <p>
-            <span css={medium}>Total carbon emissions:</span>  _Emissions here_
-            </p>
-            <p>
-            <span css={medium}>Total amount offset:</span>  _Calculated impact_
-            </p>
-            <br />
-            <div css={maxWidth(150)}>
-              <Button text="Offset All" />
-            </div>
-          </CardContent>
-        </CardContainer>
+        <div css={centerText}>
+          <CardContainer>
+            <CardContent>
+              <h2>Your Impact</h2>
+              <p>
+                <span css={medium}>_Emissions here_ kg of carbon emitted this month</span> 
+              </p>
+              <p>
+              <span css={medium}>_Calculated impact_ kg offset this month</span>  
+              </p>
+              <br />
+              <div css={[maxWidth(200), marginAuto]}>
+                <Button text="Offset _#_ purchases" />
+              </div>
+            </CardContent>
+          </CardContainer>
+        </div>
         <br />
         <br />
         <CardContainer>
           <CardContent>
           <div css={genericFlex}>
             <h2>Your Transactions</h2>
-            <div css={maxWidth(150)}>
-              <Button text="Offset All" />
+            <div css={maxWidth(200)}>
+              <Button text="Offset _#_ purchases" />
             </div>
           </div>
           <Table
-            headers={['Date', 'Vendor', 'Category', 'Amount', 'Carbon Impact', 'Neutralized']}
+            headers={['Date', 'Vendor', 'Category', 'Amount ($)', 'Carbon Impact (g)', 'Neutralized']}
             data={[{
-              "purchased_at": "2019-10-12 22:42:22.434",
+              "purchased_at": "2/20",
               "vendor": "Sample Vendor",
               "category": "Sample Category",
               "amount": "Sample Amount",
@@ -77,7 +78,7 @@ const App = () => {
               "isNeutralized": false,
             }, 
             {
-              "purchased_at": "2019-10-13 22:42:22.434",
+              "purchased_at": "2/21",
               "vendor": "Sample 2",
               "category": "Sample 2",
               "amount": "Sample 2",

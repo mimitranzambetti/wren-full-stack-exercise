@@ -10,6 +10,7 @@ import emptyCircle from '../static/empty-circle.svg';
 const tableStyle = scale({
   borderCollapse: 'collapse',
   backgroundColor: 'white',
+  width: '100%',
   th: {
     textAlign: 'left',
     height: '25px',
