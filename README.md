@@ -4,17 +4,17 @@ Hello! We really liked talking to you in our first call. Now we'd love to simula
 
 ## The Objective
 
-At Wren, we have this idea for a web dashboard where you could see your carbon footprint in "real time" and offset purchases you make on a daily basis. So, instead of calculating your carbon footprint by answering a survey, you could calculate your carbon footprint by connecting your credit card. As you make any purchases, we would assign those purchases a carbon footprint.
+At Wren, we have this idea for a web dashboard where you see your carbon footprint in "real time" and offset purchases you make on a daily basis. So, instead of calculating your carbon footprint by answering a survey, you calculate your carbon footprint by connecting your credit card. As you make purchases, we assign those purchases a carbon footprint.
 
-The science behind this is too complicated to fully cover here, but the short version of it is we can assign a "carbon impact" to each dollar you spend based on what you spent it on. Imagine you spend a dollar on gas—that has a high carbon footprint. If you instead spend it on buying a sustainably crafted wood table, that dollar would have a much smaller carbon footprint. Generally, spending more dollars means you're buying more stuff, which has a bigger carbon footprint than buying less stuff.
+The science behind this is too complicated to cover here, but the short version is we assign a "carbon impact" to each dollar you spend based on what you spent it on. Imagine you spend a dollar on gas—that has a high carbon footprint. If you instead spend a dollar on a sustainably crafted wood table, that dollar has a much smaller carbon footprint. Generally, spending more dollars means buying more stuff, which has a bigger carbon footprint than buying less stuff.
 
 Here's how we want it to look:
 
 ![Start State Mockup](https://github.com/mimi-tranzambetti/wren-full-stack-exercise/blob/master/mockups/start_state.png)
 
-As you can see, the top section shows your own impact—how much carbon you've emitted this month (or in other words, your carbon footprint for the month) and how much you've offset this month. We also give users a big orange button so they can offset their purchases and live carbon neutral :)
+As you can see, the top section shows your own impact—how much carbon you've emitted this month (or in other words, your carbon footprint for the month) and how much you've offset this month. We also give users a big orange button to offset their purchases and live carbon neutral :)
 
-The bottom section is a list of all transactions for this user, with some information about the purchase. The "Carbon Impact (g)" column shows the carbon impact in grams of that purchase. The "Neutralized" column indicates if the purchase has been offset or not.
+The bottom section is a list of all transactions for this user, with some information about the purchase. The "Carbon Impact (g)" column shows that purchase's carbon impact in grams. The "Neutralized" column indicates if the purchase has been offset or not.
 
 Clicking the "Offset x purchases" button would offset all purchases that have not already been offset. Once they've clicked the offset button, the page should look like this:
 
