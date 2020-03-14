@@ -1,6 +1,6 @@
 # Wren Full Stack Dev Exercise: Offset everyday purchases
 
-Hello! We really liked talking to you in our first call. Now we'd love to simulate a slightly mroe "real world" scenario, where we can see how you approach building a functioning product from a high level mockup and description.
+Hello! We really liked talking to you in our first call. Now we'd love to simulate a slightly more "real world" scenario, where we can see how you approach building a functioning product from a high level mockup and description.
 
 ## The Objective
 
